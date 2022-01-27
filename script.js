@@ -1,6 +1,8 @@
 "use strict"
 
-const secretNumber = (Math.random() * 20 ) + 1;
+const secretNumber = Math.trunc(Math.random() * 20 ) + 1;
+
+console.log()
 
 let score = 20;
 
