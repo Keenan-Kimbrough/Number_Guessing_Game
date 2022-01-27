@@ -18,7 +18,7 @@ document.querySelector('.check').addEventListener('click', function () {
     console.log(guess, typeof guess);
 
 
-});
+
   
 
 //guess is not a numebr
@@ -64,4 +64,4 @@ document.querySelector('.message').textContent = ' You completely losted the gam
 if  ( guess < secretNumber) {    
 document.querySelector('.message').textContent = ' To low ';    
 score--;    
-document.querySelector('.score').textContent = score; } 
+document.querySelector('.score').textContent = score; } });
